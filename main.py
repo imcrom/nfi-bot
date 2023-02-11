@@ -91,7 +91,8 @@ async def requestApi(message, prompt, model):
         'seed': None,
         'guidance_scale': 7.5,
         'webhook': None,
-        'track_id': None
+        'track_id': None,
+        'safety_checker': 'yes'
     }
     
     while True:
